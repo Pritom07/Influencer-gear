@@ -4,15 +4,16 @@ body {
     font-family: 'Poppins';
     background-color: #AAAAAA;
     width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
 }
 
 .whole {
     width: 95%;
     height: auto;
     position: relative;
-    left: 2.5%;
+    left: 3%;
     background-color: white;
-    padding-bottom: 20%;
 }
 
 .webmenu {
@@ -30,7 +31,7 @@ body {
 .genuin-menu {
     position: relative;
     top: 20px;
-    right: 8%;
+    right: 6%;
 }
 
 .genuin-menu a {
@@ -110,7 +111,7 @@ body {
 .camera img {
     width: 440px;
     height: 414px;
-    margin-left: 19%;
+    margin-left: 18%;
     margin-top: 4%;
 }
 
@@ -119,15 +120,15 @@ body {
 .Logo-section {
 
     position: relative;
-    left: 9%;
-    margin-top: 2.8%;
+    left: 8%;
+    margin-top: 3%;
 
 }
 
 .logo {
     display: flex;
     padding: 20px;
-    width: 80%;
+    width: 83%;
     border-top: 0.1px solid grey;
     border-bottom: 0.2px solid grey;
 }
@@ -169,16 +170,16 @@ body {
 /*---------- Populer collection style---------- */
 
 .populer-collection {
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 25%);
-    row-gap: 26px;
-    column-gap: 22px;
+    row-gap: 25px;
+    column-gap: 44px;
     position: relative;
-    left: 11%;
+    left: 7.6%;
 }
 
 .collection {
@@ -239,9 +240,78 @@ body {
     color: #E02C6D;
     position: relative;
     bottom: 25%;
-    left: 72%;
+    left: 70%;
 }
 
 .collection h6 .fa-arrow-right-long {
     margin-left: 3%;
+}
+
+/*-------- Mobile-wire-section style --------*/
+
+.mobile-wire-section {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 8%;
+}
+
+.mobile-wire-img {
+    width: 404px;
+    height: 270px;
+}
+
+.featured-product {
+    margin-top: 0.4%;
+    margin-left: 8%;
+}
+
+.featured-product h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.featured-product h5 {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.featured-product button {
+
+    border: 1px solid #E02C6D;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+/*---------- Footer-section style ----------*/
+
+footer {
+    margin-top: 6%;
+    height: 180px;
+}
+
+.final-section {
+    color: white;
+    background-color: #0A0826;
+    text-align: center;
+    padding-top: 18px;
+    height: 180px;
+}
+
+
+.final-section h3 {
+    font-size: 24px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 23px;
+    font-size: 14px;
+}
+
+.linking-section i {
+    margin-left: 1%;
+    position: relative;
+    bottom: 25px;
+    right: 6px;
 }
