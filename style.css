@@ -56,20 +56,13 @@ body {
     top: 7px;
 }
 
-
-/* apattoto lagbe na*/
+/*------------ We don't use mobile-menu in Web-view section ------------*/
 .mobilemenu {
-    display: flex;
-    justify-content: space-between;
+
     display: none;
+    justify-content: space-between;
 }
 
-.fa-cart-plus,
-.fa-bars {
-    font-size: 27px;
-}
-
-/* apattoto lagbe na*/
 
 /* --------start-cam block styles-------- */
 
@@ -465,7 +458,7 @@ footer {
     .populer-collection h2 {
         position: relative;
         top: 20px;
-        left: 7.5px;
+        right: 2%;
     }
 
     .collection {
@@ -476,6 +469,9 @@ footer {
     .collections {
         width: 10%;
         grid-template-columns: repeat(1, 22%);
+        position: relative;
+        left: -2%;
+        margin-left: 6%;
         row-gap: 17px;
         margin-top: 50px;
     }
@@ -487,10 +483,10 @@ footer {
         width: 100%;
     }
 
-    .mobile-wire-img {
+    .mobile-wire-img>img {
         position: relative;
-        width: 10px;
-        right: 7%;
+        width: 85%;
+        right: 13px;
         top: 30px;
     }
 
@@ -519,6 +515,149 @@ footer {
     }
 
     .final-section {
-        margin-top: 25%;
+        margin-top: 14%;
     }
+}
+
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    body {
+        width: 100%;
+        position: relative;
+        left: - 0.9%;
+    }
+
+    .influence {
+        margin-top: 5%;
+        position: relative;
+        right: 4.8%;
+        font-size: 17px;
+    }
+
+    .genuin-menu {
+        font-size: 22px;
+        font-weight: 900;
+        padding-right: 24px;
+        position: relative;
+        right: -0.2%;
+    }
+
+    .mobilemenu {
+        display: none;
+    }
+
+    /* --------Start-cam section style-------- */
+
+    .start-cam {
+        flex-direction: column-reverse;
+    }
+
+    .camera img {
+        margin-top: 16%;
+        margin-left: 26%;
+    }
+
+    .start {
+        width: 100%;
+    }
+
+    .start h1 {
+        font-size: 65px;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .lorem16 {
+        font-size: 32px;
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .start button {
+        height: 70px;
+        width: 50%;
+        font-size: 27px;
+        position: relative;
+        left: 24%;
+        bottom: 70px;
+    }
+
+    /* -------------Logo-section style -----------*/
+
+    .logo {
+        flex-direction: column;
+        position: relative;
+        bottom: 25px;
+        right: 2.5%;
+    }
+
+    .three-img-block {
+        margin-top: 3.5%;
+        margin-left: 3%;
+    }
+
+    /* ------------------Populer-collection style------------- */
+
+    .populer-collection h2 {
+        font-size: 35px;
+    }
+
+    .collections {
+        grid-template-columns: repeat(2, 43%);
+        margin-left: 4%;
+        position: relative;
+        left: -0.04%;
+    }
+
+    .collection h6 {
+        font-size: 23px;
+        position: relative;
+        left: 170%;
+    }
+
+    /* --------Mobile-wire section --------*/
+
+    .mobile-wire-section {
+        flex-direction: column-reverse;
+    }
+
+    .featured-product h2 {
+        font-size: 48px;
+        text-align: center;
+        margin-right: 20%;
+    }
+
+    .featured-product h5 {
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        right: 8%;
+        bottom: 30px;
+    }
+
+    .featured-product button {
+        height: 60px;
+        width: 40%;
+        font-size: 23px;
+        margin-left: 20%;
+        position: relative;
+        bottom: 26px;
+    }
+
+    .mobile-wire-img>img {
+        width: 160%;
+        margin-top: 8%;
+        position: relative;
+        right: 4%;
+    }
+
+    /* --------Final-section style---------- */
+
+    .final-section {
+        margin-top: 40%;
+    }
+
 }
